@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/BurnCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/SuperPunch"
+        android:layout_below="@+id/SuperPunch"
+        android:layout_marginTop="37dp"
+        android:text="Burning Calories"
+        android:onClick="BurnCalories" />
+
+    <Button
+        android:id="@+id/HighScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BurnCal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="High Score" />
+
+    <Button
+        android:id="@+id/SuperPunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/HighScore"
+        android:layout_marginTop="46dp"
+        android:text="Super Punch"
+        android:onClick="SuperPunch" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/HighScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Exit" />
+
+</RelativeLayout>
